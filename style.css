@@ -2,7 +2,11 @@
 
 body {
     font-family: Roboto, sans-serif;
+}
+
+.header-bg {
     background-color: #1F2937;
+    padding: 10px 0px;
 }
 
 .header {
@@ -10,10 +14,17 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+    margin: 20px 80px;
 }
 
 .head-link {
     display: flex;
+}
+
+.container1-bg {
+    background-color: #1F2937;
+    padding: 20px 0px;
+    height: 20%;
 }
 
 .container1-content {
@@ -28,14 +39,11 @@ body {
 
 .container1-button {
     margin-top: 10px;
-    color: #E5E7EB;
-    border-radius: 10px;
-    padding: 10px 24px;
-    font-size: 16px;
 }
 
 .container2-bg {
     background-color: white;
+    height: 20%;
 }
 
 .card-content {
@@ -57,7 +65,6 @@ body {
     margin-bottom: 60px;
     gap: 32px;
     justify-content: center;
-
 }
 
 .container2-card{
@@ -79,11 +86,71 @@ body {
     margin-top: 10px;
 }
 
+.container3-bg {
+    background-color: #E5E7EB;
+}
+
 .container3 {
     display: flex;
-    flex: 1;
-    background-color: #E5E7EB;
+    padding: 70px 120px;
     flex-direction: column;
+}
+
+.subcontainer3-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.writer {
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.container4-bg {
+    background-color: white;
+    height: 20%;
+}
+
+.contact-box {
+    background-color: #3882F6;
+    margin: 80px 100px;
+    padding: 30px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-content4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.box-header {
+    font-size: 20px;
+}
+
+.box-content {
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.right-content4 {
+    display: flex;
+    align-items: center;
+}
+
+.right-content4 button {
+    border: 1px solid white;
 }
 
 .topic {
@@ -103,16 +170,6 @@ body {
     font-size: 36px;
 }
 
-.quote {
-    font-size: 36px;
-    font-style: italic;
-}
-
-.writer {
-    display: flex;
-    align-items: flex-end;
-}
-
 ul {
     display: flex;
     list-style-type: none;
@@ -123,4 +180,19 @@ ul {
 
 button {
     background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+.footer-bg {
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 20px 0;
 }
