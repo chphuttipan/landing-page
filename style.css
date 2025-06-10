@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.head-link {
+    display: flex;
+}
+
+.container1-content {
+    display: flex;
+    margin: 80px;
+    justify-content: center;
+}
+
+.left-content {
+    margin-right: 20px;
+}
+
+.container1-button {
+    margin-top: 10px;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 24px;
+    font-size: 16px;
+}
+
+.container2-bg {
+    background-color: white;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+    margin-bottom: 60px;
+    gap: 32px;
+    justify-content: center;
+
+}
+
+.container2-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    width: 100px;
+    height: 150px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+}
+
+.card-descrip {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex: 1;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.topic {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.card-header {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.writer {
+    display: flex;
+    align-items: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882F6;
+}
